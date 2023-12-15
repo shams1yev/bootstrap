@@ -1,0 +1,50 @@
+ @import url('https://fonts.googleapis.com/css2?family=Lato:ital@1&family=Montserrat:ital,wght@1,300;1,400&family=Open+Sans:ital@1&family=Raleway:ital@1&family=Roboto:ital,wght@1,300;1,400&display=swap');
+
+:root{
+    --lato: 'Lato', sans-serif;
+--monsterrat: 'Montserrat', sans-serif;
+--open: 'Open Sans', sans-serif;
+--raleway: 'Raleway', sans-serif;
+--roboto: 'Roboto', sans-serif;
+}
+.lato{
+    font-family: var(--lato);
+}
+.monsterrat{
+    font-family: var(--monsterrat);
+}
+.open{
+    font-family: var(--open);
+}
+.roboto{
+    font-family: var(--roboto);
+}
+.raleway{
+    font-family: var(--raleway);
+}
+.header #fixed{
+    width: 33%;
+    height: 100vh;
+    background-image: url(/photo_2023-12-15_19-39-28.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.header #fixed img{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+}
+@media only screen and (max-width:768px){
+    .header #fixed{
+        width: 
+        100%;
+        position: relative;
+    }
+}
